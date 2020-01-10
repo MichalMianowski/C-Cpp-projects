@@ -1,0 +1,88 @@
+﻿  Czujka.cpp
+c1xx : fatal error C1083: Nie można otworzyć pliku źródło: 'Czujka.cpp': No such file or directory
+  Kontener.cpp
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.h(23): error C2061: błąd składniowy: identyfikator „string”
+  c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.h(34): note: zobacz odwołanie do klasy klasa szablon; wystąpienie „Kontener<TYP>” jest kompilowane
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.h(24): error C2061: błąd składniowy: identyfikator „string”
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(39): error C2760: błąd składniowy: nieoczekiwany token „}”, oczekiwano: „instrukcja”
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(95): error C2061: błąd składniowy: identyfikator „string”
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(98): error C2760: błąd składniowy: nieoczekiwany token „identyfikator”, oczekiwano: „;”
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(106): error C2065: "string": niezadeklarowany identyfikator
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(106): error C2146: błąd składniowy: brakuje „)” przed identyfikatorem „nazwa_pliku”
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(106): error C2143: błąd składniowy: brakuje „;” przed „{”
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(106): error C2447: "{": brak nagłówka funkcji (stary styl formalnej listy?)
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(140): error C3861: "cout": identyfikatora nie odnaleziono
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(140): error C3861: "endl": identyfikatora nie odnaleziono
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(144): error C3861: "cout": identyfikatora nie odnaleziono
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(144): error C3861: "endl": identyfikatora nie odnaleziono
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(187): error C2065: "string": niezadeklarowany identyfikator
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(187): error C3861: "string": identyfikatora nie odnaleziono
+  c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(187): note: „string”: deklaracja funkcji musi być dostępna, ponieważ żaden z argumentów nie zależy od parametru szablonu
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(10): error C2995: "Kontener<TYP>::Kontener(void)": szablon funkcji został już zdefiniowany
+  c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.h(17): note: zobacz deklarację „Kontener<TYP>::Kontener”
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(39): error C2760: błąd składniowy: nieoczekiwany token „}”, oczekiwano: „instrukcja”
+  c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(39): note: Diagnostyka wystąpiła w funkcji wygenerowanej przez kompilator "void Kontener<TYP>::dodajElement(const TYP &)"
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(39): error C2995: "void Kontener<TYP>::dodajElement(const TYP &)": szablon funkcji został już zdefiniowany
+  c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.h(18): note: zobacz deklarację „Kontener<TYP>::dodajElement”
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(63): error C2995: "void Kontener<TYP>::usunElement(int)": szablon funkcji został już zdefiniowany
+  c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.h(19): note: zobacz deklarację „Kontener<TYP>::usunElement”
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(77): error C2995: "void Kontener<TYP>::usunOstatni(void)": szablon funkcji został już zdefiniowany
+  c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.h(20): note: zobacz deklarację „Kontener<TYP>::usunOstatni”
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(82): error C2995: "TYP &Kontener<TYP>::zwrocObiekt(int)": szablon funkcji został już zdefiniowany
+  c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.h(21): note: zobacz deklarację „Kontener<TYP>::zwrocObiekt”
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(92): error C2995: "void Kontener<TYP>::zmienKolejnosc(int,int)": szablon funkcji został już zdefiniowany
+  c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.h(22): note: zobacz deklarację „Kontener<TYP>::zmienKolejnosc”
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(95): error C2061: błąd składniowy: identyfikator „string”
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(98): error C2760: błąd składniowy: nieoczekiwany token „identyfikator”, oczekiwano: „;”
+  c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(98): note: Diagnostyka wystąpiła w funkcji wygenerowanej przez kompilator "void Kontener<TYP>::zapiszObiekt(int)"
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(103): error C2995: "void Kontener<TYP>::zapiszObiekt(int)": szablon funkcji został już zdefiniowany
+  c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.h(23): note: zobacz deklarację „Kontener<TYP>::zapiszObiekt”
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(106): error C2065: "string": niezadeklarowany identyfikator
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(106): error C2146: błąd składniowy: brakuje „)” przed identyfikatorem „nazwa_pliku”
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(106): error C2143: błąd składniowy: brakuje „;” przed „{”
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(106): error C2447: "{": brak nagłówka funkcji (stary styl formalnej listy?)
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(133): error C2995: "Wezel<TYP> *Kontener<TYP>::zwrocWskaznikWezla(int)": szablon funkcji został już zdefiniowany
+  c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.h(26): note: zobacz deklarację „Kontener<TYP>::zwrocWskaznikWezla”
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(140): error C3861: "cout": identyfikatora nie odnaleziono
+  c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(140): note: Diagnostyka wystąpiła w funkcji wygenerowanej przez kompilator "void Kontener<TYP>::wyswietlWszystkieObiekty(void)"
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(140): error C3861: "endl": identyfikatora nie odnaleziono
+  c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(140): note: Diagnostyka wystąpiła w funkcji wygenerowanej przez kompilator "void Kontener<TYP>::wyswietlWszystkieObiekty(void)"
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(144): error C3861: "cout": identyfikatora nie odnaleziono
+  c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(144): note: Diagnostyka wystąpiła w funkcji wygenerowanej przez kompilator "void Kontener<TYP>::wyswietlWszystkieObiekty(void)"
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(144): error C3861: "endl": identyfikatora nie odnaleziono
+  c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(144): note: Diagnostyka wystąpiła w funkcji wygenerowanej przez kompilator "void Kontener<TYP>::wyswietlWszystkieObiekty(void)"
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(145): error C2995: "void Kontener<TYP>::wyswietlWszystkieObiekty(void)": szablon funkcji został już zdefiniowany
+  c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.h(25): note: zobacz deklarację „Kontener<TYP>::wyswietlWszystkieObiekty”
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(150): error C2995: "int Kontener<TYP>::size(void)": szablon funkcji został już zdefiniowany
+  c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.h(27): note: zobacz deklarację „Kontener<TYP>::size”
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(161): error C2995: "int Kontener<TYP>::indexOf(const TYP &)": szablon funkcji został już zdefiniowany
+  c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.h(28): note: zobacz deklarację „Kontener<TYP>::indexOf”
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(167): error C2995: "Kontener<TYP>::~Kontener(void)": szablon funkcji został już zdefiniowany
+  c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.h(29): note: zobacz deklarację „Kontener<TYP>::~Kontener”
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(175): error C2995: "bool Kontener<TYP>::operator ==(Kontener<TYP> &)": szablon funkcji został już zdefiniowany
+  c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.h(31): note: zobacz deklarację „Kontener<TYP>::operator ==”
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(182): error C2995: "Kontener<TYP> &Kontener<TYP>::operator =(Kontener<TYP> &)": szablon funkcji został już zdefiniowany
+  c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.h(32): note: zobacz deklarację „Kontener<TYP>::operator =”
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(187): error C2065: "string": niezadeklarowany identyfikator
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(187): error C3861: "string": identyfikatora nie odnaleziono
+  c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(187): note: „string”: deklaracja funkcji musi być dostępna, ponieważ żaden z argumentów nie zależy od parametru szablonu
+  c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(187): note: Diagnostyka wystąpiła w funkcji wygenerowanej przez kompilator "TYP &Kontener<TYP>::operator [](int)"
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.cpp(189): error C2995: "TYP &Kontener<TYP>::operator [](int)": szablon funkcji został już zdefiniowany
+  c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\kontener.h(33): note: zobacz deklarację „Kontener<TYP>::operator []”
+  Lacznosc.cpp
+c1xx : fatal error C1083: Nie można otworzyć pliku źródło: 'Lacznosc.cpp': No such file or directory
+  Main_program.cpp
+c1xx : fatal error C1083: Nie można otworzyć pliku źródło: 'Main_program.cpp': No such file or directory
+  SysAlarm.cpp
+  SysOchronne.cpp
+  SysPpoz.cpp
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\sysppoz.h(10): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+  SysZraszaczy.cpp
+c:\users\dell\documents\pw\proe\projekt3\proj3a\backend\sysppoz.h(10): warning C4305: "inicjowanie": obcięcie z "double" do "float"
+  test_ogolny.cpp
+c1xx : fatal error C1083: Nie można otworzyć pliku źródło: 'test_ogolny.cpp': No such file or directory
+  test_operatorow.cpp
+c1xx : fatal error C1083: Nie można otworzyć pliku źródło: 'test_operatorow.cpp': No such file or directory
+  Zasilacz.cpp
+c1xx : fatal error C1083: Nie można otworzyć pliku źródło: 'Zasilacz.cpp': No such file or directory
+  Generowanie kodu...
